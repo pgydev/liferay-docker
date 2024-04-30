@@ -92,6 +92,7 @@ function package_boms {
 	lc_cd "${_BUILD_DIR}/boms"
 
 	cp -a ./*.pom "${_BUILD_DIR}/release"
+	cp -a ./*.jar "${_BUILD_DIR}/release"
 
 	touch .touch
 
